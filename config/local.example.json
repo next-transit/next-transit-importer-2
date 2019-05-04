@@ -1,0 +1,3 @@
+{
+  "database_url": "postgres://username:5433@localhost/nexttransit_dev"
+}
