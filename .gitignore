@@ -1,3 +1,5 @@
-/node_modules
-/config/local.json
-/data
+config/local.json
+data/gtfs
+node_modules
+
+db-deploy-instructions.md
