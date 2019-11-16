@@ -13,5 +13,9 @@
     "moment": "^2.24.0",
     "next-transit-data": "git://github.com/next-transit/next-transit-data.git",
     "terminal-kit": "^1.28.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.568.0",
+    "superagent": "^5.1.0"
   }
 }
