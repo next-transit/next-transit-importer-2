@@ -1,5 +1,6 @@
 config/local.json
 data/gtfs
 node_modules
+backups
 
 db-deploy-instructions.md

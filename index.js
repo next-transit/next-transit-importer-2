@@ -18,8 +18,9 @@ module.exports = () => {
 
   program
     .command('unzip')
-    .option('-a, --agency [agency]', 'Agency slug', /^(septa|trimet)$/)
     .description('Unzip a downloaded GTFS archive')
+    .option('-a, --agency [agency]', 'Agency slug', /^(septa|trimet)$/)
+    .action(commands.unpack);
 
   program
     .command('import')
