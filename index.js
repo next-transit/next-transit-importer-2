@@ -37,6 +37,8 @@ module.exports = () => {
     .command('export')
     .description('Export current database to S3')
     .option('-l, --local', 'Create a backup only. Do not export to S3')
+    .option('-u, --upload', 'Upload only.')
+    .action(commands.export);
 
   program
     .command('publish')
