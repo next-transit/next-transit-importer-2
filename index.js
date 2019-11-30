@@ -44,9 +44,10 @@ module.exports = () => {
     .command('publish')
     .description('Send new data to production environment')
     .option('-c, --create', 'Create new database only')
-    .option('-r, --restore <archive>', 'Restore backup to a production database')
+    .option('-r, --restore [archive]', 'Restore backup to a production database')
     .option('-p, --promote', 'Promote database to be used by production')
     .option('-x, --delete', 'Remove a production database')
+    .action(commands.publish);
 
   program.parse(process.argv);
 
