@@ -1,7 +1,7 @@
 {
   "productionAPIApp": "",
   "productionWebApps": [],
-  "database_url": "postgres://username:5433@localhost/nexttransit_dev",
+  "databaseUrl": "postgres://username:5432@localhost/nexttransit_dev",
   "heroku_api_app_name": "",
   "s3Bucket": "your-s3-bucket"
 }
